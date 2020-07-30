@@ -3,8 +3,25 @@
   font-family: 'Roboto', sans-serif;
 }
 
+
+::-webkit-scrollbar {
+  width: 15px;
+  background: #141414;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: var(--white);
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: var(--blackLighter);
+}
+
 :root {
-  --primary: #d10101;
+  --primary: #d1010152;
   --black: #000000;
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;

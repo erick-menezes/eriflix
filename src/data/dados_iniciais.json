@@ -1,75 +1,83 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "League Of Legends",
       "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "cor": "#FFDC00",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Animações de League Of Legends",
+        "url": "https://www.youtube.com/c/RiotGamesBrasil"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "Irmãos da Lâmina Manchada | Animação Florescer Espiritual 2020 - League of Legends",
+          "url": "https://www.youtube.com/watch?v=4eNjKhwXIWg"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Contos de Runeterra: Águas de Sentina | 'Virando o Jogo'",
+          "url": "https://www.youtube.com/watch?v=Jp9wrmF81gc"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Contos de Runeterra: Ionia | 'A Lição'",
+          "url": "https://www.youtube.com/watch?v=l7opUhgEx7U"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Contos de Runeterra: Piltover e Zaun | 'Verdadeira Genialidade'",
+          "url": "https://www.youtube.com/watch?v=Z_BedYLqQ4g"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Contos de Runeterra: Noxus | 'Após a Vitória'",
+          "url": "https://www.youtube.com/watch?v=9EXK3xBfwTU"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Contos de Runeterra: Ilhas das Sombras | 'Sem Escapatória'",
+          "url": "https://www.youtube.com/watch?v=oAW0H9WCPcE"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Contos de Runeterra: Freljord | 'A Invasão'",
+          "url": "https://www.youtube.com/watch?v=pnCq4uyYtmo"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "Contos de Runeterra: Demacia | 'Antes da Glória'",
+          "url": "https://www.youtube.com/watch?v=lAGWn3GVLVY"
         }        
       ]
     },
     {
-      "titulo": "Back End",
-      "cor": "#00C86F",
+      "titulo": "Monstercat: Instinct",
+      "cor": "#e9caa6",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Músicas do canal Monstercat: Instinct",
+        "url": "https://www.youtube.com/channel/UCp8OOssjSjGZRVYK6zWbNLg"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Dion Timmer - Shiawase [Monstercat Release]",
+          "url": "https://www.youtube.com/watch?v=N-V3zqvtbCM"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Vicetone - Way Back (feat. Cozi Zuehlsdorff) [Monstercat Release]",
+          "url": "https://www.youtube.com/watch?v=ZaRYaTT2Xcs"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Subtact - Friends (feat. Bri Tolani) [Monstercat Release]",
+          "url": "https://www.youtube.com/watch?v=SSU4f_zreCk"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Rogue - Fortress [Monstercat Release]",
+          "url": "https://www.youtube.com/watch?v=HOkC0hVtA2o"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Brandyn Burnette & dwilly - Hands Down (feat. Kayo Genesis) [Monstercat Release]",
+          "url": "https://www.youtube.com/watch?v=7D8aqOX07o0"
+        },
+        {
+          "titulo": "LVTHER - Friends Again (feat. Claire Ridgely) [Monstercat Release]",
+          "url": "https://www.youtube.com/watch?v=qPmMqCte7ms"
+        },
+        {
+          "titulo": "SMLE - 2 Me (feat. Kiddo Ai & Nick Smith) [Monstercat Release]",
+          "url": "https://www.youtube.com/watch?v=sDLsSQf3Hc0"
         }
       ]
     },
