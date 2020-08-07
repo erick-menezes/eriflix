@@ -5,6 +5,7 @@
 
 :root {
   --primary: #d1010152;
+  --primaryT: rgba(245, 245, 245, 0.459);
   --black: #000000;
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;

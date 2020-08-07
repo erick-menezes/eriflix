@@ -1,0 +1,16 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "nome": "Front End",
+            "descricao": "Meu teclado é muito ruim",
+            "cor": "#cbd1FF"
+        },
+        {
+            "id": 2,
+            "nome": "Back End",
+            "descricao": "Cadê meu pai?",
+            "cor": "#cbd1FF"
+        }
+    ]
+}
