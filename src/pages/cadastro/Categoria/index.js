@@ -30,7 +30,9 @@ function CadastroCategoria() {
 
   useEffect(() => {
 
-    const URL_TOP = 'http://localhost:8080/categorias';
+    const URL_TOP = window.location.hostname.includes('localhost')
+    ? 'http://localhost:8080/categorias'
+    : 'https://eriflixx.herokuapp.com/categorias';
 
     fetch(URL_TOP)
     .then(async (response) => {
@@ -39,24 +41,6 @@ function CadastroCategoria() {
         ...resposta,
       ]);
     })
-
-    /*setTimeout(() => {
-      setCategorias([
-        ...categorias,
-        {
-          "id": 1,
-          "nome": "Front End",
-          "descricao": "Meu teclado é muito ruim",
-          "cor": "#cbd1FF"
-        },
-        {
-          "id": 2,
-          "nome": "Back End",
-          "descricao": "Cadê meu pai?",
-          "cor": "#cbd1FF"
-        }
-      ]);
-    }, 4 * 1000);*/
   }, []);
 
   return (
