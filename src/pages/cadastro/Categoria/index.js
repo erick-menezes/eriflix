@@ -40,7 +40,7 @@ function CadastroCategoria() {
       setCategorias([
         ...resposta,
       ]);
-    })
+    });
   }, []);
 
   return (
