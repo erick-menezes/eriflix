@@ -29,7 +29,6 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    console.log('alo alo w brazil kkkkkkkkkkkkkkkkkkkkkk');
 
     const URL_TOP = 'http://localhost:8080/categorias';
 
@@ -63,8 +62,7 @@ function CadastroCategoria() {
   return (
     <PageDefault>
       <h1>
-        Cadastro de Categoria:
-        {values.nome}
+        Cadastro de Categoria: {values.nome}
       </h1>
 
       <form onSubmit={function handleSubmit(info) {

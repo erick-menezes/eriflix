@@ -4,7 +4,7 @@
 }
 
 :root {
-  --primary: #d1010152;
+  --primary: rgb(226, 13, 13);
   --primaryT: rgba(245, 245, 245, 0.459);
   --black: #000000;
   --blackLighter: #9E9E9E;
