@@ -1,168 +1,171 @@
 {
-    "categorias": [
-        {
-            "id": 1,
-            "titulo": "League Of Legends",
-            "cor": "#FFDC00",
-            "link_extra": {
-                "text": "Animações de League Of Legends",
-                "url": "https://www.youtube.com/c/RiotGamesBrasil"
-            }
-        },
-        
-        {
-            "id": 2,
-            "titulo": "Monstercat: Instinct",
-            "cor": "#e9caa6",
-            "link_extra": {
-                "text": "Músicas do canal Monstercat: Instinct",
-                "url": "https://www.youtube.com/channel/UCp8OOssjSjGZRVYK6zWbNLg"
-            }
-        },
-        
-        {
-            "id": 3,
-            "titulo": "Games",
-            "cor": "red",
-            "link_extra": {
-                "text": "Trailer de jogos",
-                "url": "https://www.youtube.com/user/PlayStation"
-            }
-        }
-    ],
-
-    "videos": [
-        {
-            "id": 1,
-            "categoriaId": 1,
-            "titulo": "Irmãos da Lâmina Manchada | Animação Florescer Espiritual 2020 - League of Legends",
-            "url": "https://www.youtube.com/watch?v=4eNjKhwXIWg"
-        },
-        {
-            "id": 2,
-            "categoriaId": 1,
-            "titulo": "Contos de Runeterra: Águas de Sentina | 'Virando o Jogo'",
-            "url": "https://www.youtube.com/watch?v=Jp9wrmF81gc"
-        },
-        {
-            "id": 3,
-            "categoriaId": 1,
-            "titulo": "Contos de Runeterra: Ionia | 'A Lição'",
-            "url": "https://www.youtube.com/watch?v=l7opUhgEx7U"
-        },
-        {
-            "id": 4,
-            "categoriaId": 1,
-            "titulo": "Contos de Runeterra: Piltover e Zaun | 'Verdadeira Genialidade'",
-            "url": "https://www.youtube.com/watch?v=Z_BedYLqQ4g"
-        },
-        {
-            "id": 5,
-            "categoriaId": 1,
-            "titulo": "Contos de Runeterra: Noxus | 'Após a Vitória'",
-            "url": "https://www.youtube.com/watch?v=9EXK3xBfwTU"
-        },
-        {
-            "id": 6,
-            "categoriaId": 1,
-            "titulo": "Contos de Runeterra: Ilhas das Sombras | 'Sem Escapatória'",
-            "url": "https://www.youtube.com/watch?v=oAW0H9WCPcE"
-        },
-        {
-            "id": 7,
-            "categoriaId": 1,
-            "titulo": "Contos de Runeterra: Freljord | 'A Invasão'",
-            "url": "https://www.youtube.com/watch?v=pnCq4uyYtmo"
-        },
-        {
-            "id": 8,
-            "categoriaId": 1,
-            "titulo": "Contos de Runeterra: Demacia | 'Antes da Glória'",
-            "url": "https://www.youtube.com/watch?v=lAGWn3GVLVY"
-        },
-        {
-            "id": 9,
-            "categoriaId": 2,
-            "titulo": "Dion Timmer - Shiawase [Monstercat Release]",
-            "url": "https://www.youtube.com/watch?v=N-V3zqvtbCM"
-        },
-        {
-            "id": 10,
-            "categoriaId": 2,
-            "titulo": "Vicetone - Way Back (feat. Cozi Zuehlsdorff) [Monstercat Release]",
-            "url": "https://www.youtube.com/watch?v=ZaRYaTT2Xcs"
-        },
-        {
-            "id": 11,
-            "categoriaId": 2,
-            "titulo": "Subtact - Friends (feat. Bri Tolani) [Monstercat Release]",
-            "url": "https://www.youtube.com/watch?v=SSU4f_zreCk"
-        },
-        {
-            "id": 12,
-            "categoriaId": 2,
-            "titulo": "Rogue - Fortress [Monstercat Release]",
-            "url": "https://www.youtube.com/watch?v=HOkC0hVtA2o"
-        }, 
-        {
-            "id": 13,
-            "categoriaId": 2,
-            "titulo": "Brandyn Burnette & dwilly - Hands Down (feat. Kayo Genesis) [Monstercat Release]",
-            "url": "https://www.youtube.com/watch?v=7D8aqOX07o0"
-        },
-        {
-            "id": 14,
-            "categoriaId": 2,
-            "titulo": "LVTHER - Friends Again (feat. Claire Ridgely) [Monstercat Release]",
-            "url": "https://www.youtube.com/watch?v=qPmMqCte7ms"
-        },
-        {
-            "id": 15,
-            "categoriaId": 2,
-            "titulo": "SMLE - 2 Me (feat. Kiddo Ai & Nick Smith) [Monstercat Release]",
-            "url": "https://www.youtube.com/watch?v=sDLsSQf3Hc0"
-        },
-        {
-            "id": 16,
-            "categoriaId": 3,
-            "titulo": "Ghost of Tsushima",
-            "url": "https://www.youtube.com/watch?v=D0qA_b1Emw8"
-        },
-        {
-            "id": 17,
-            "categoriaId": 3,
-            "titulo": "The Last Of Us 2",
-            "url": "https://www.youtube.com/watch?v=16RlfA39vhM"
-        },
-        {
-            "id": 18,
-            "categoriaId": 3,
-            "titulo": "God of War 4",
-            "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
-        },
-        {
-            "id": 19,
-            "categoriaId": 3,
-            "titulo": "Resident Evil 3 [REMAKE]",
-            "url": "https://www.youtube.com/watch?v=SuSwkjECwZ0"
-        },
-        {
-            "id": 20,
-            "categoriaId": 3,
-            "titulo": "Mortal Kombat 11",
-            "url": "https://www.youtube.com/watch?v=UoTams2yc0s"
-        },
-        {
-            "id": 21,
-            "categoriaId": 3,
-            "titulo": "Star Wars Jedi: Fallen Order",
-            "url": "https://www.youtube.com/watch?v=0GLbwkfhYZk"
-        },
-        {
-            "id": 22,
-            "categoriaId": 3,
-            "titulo": "Death Stranding",
-            "url": "https://www.youtube.com/watch?v=tCI396HyhbQ"
-        }
-    ]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "League Of Legends",
+      "cor": "#FFDC00",
+      "link_extra": {
+        "text": "Animações de League Of Legends",
+        "url": "https://www.youtube.com/c/RiotGamesBrasil"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Monstercat: Instinct",
+      "cor": "#e9caa6",
+      "link_extra": {
+        "text": "Músicas do canal Monstercat: Instinct",
+        "url": "https://www.youtube.com/channel/UCp8OOssjSjGZRVYK6zWbNLg"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Games",
+      "cor": "red",
+      "link_extra": {
+        "text": "Trailer de jogos",
+        "url": "https://www.youtube.com/user/PlayStation"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Irmãos da Lâmina Manchada | Animação Florescer Espiritual 2020 - League of Legends",
+      "url": "https://www.youtube.com/watch?v=4eNjKhwXIWg"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Contos de Runeterra: Águas de Sentina | 'Virando o Jogo'",
+      "url": "https://www.youtube.com/watch?v=Jp9wrmF81gc"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Contos de Runeterra: Ionia | 'A Lição'",
+      "url": "https://www.youtube.com/watch?v=l7opUhgEx7U"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Contos de Runeterra: Piltover e Zaun | 'Verdadeira Genialidade'",
+      "url": "https://www.youtube.com/watch?v=Z_BedYLqQ4g"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Contos de Runeterra: Noxus | 'Após a Vitória'",
+      "url": "https://www.youtube.com/watch?v=9EXK3xBfwTU"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Contos de Runeterra: Ilhas das Sombras | 'Sem Escapatória'",
+      "url": "https://www.youtube.com/watch?v=oAW0H9WCPcE"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "Contos de Runeterra: Freljord | 'A Invasão'",
+      "url": "https://www.youtube.com/watch?v=pnCq4uyYtmo"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "Contos de Runeterra: Demacia | 'Antes da Glória'",
+      "url": "https://www.youtube.com/watch?v=lAGWn3GVLVY"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Dion Timmer - Shiawase [Monstercat Release]",
+      "url": "https://www.youtube.com/watch?v=N-V3zqvtbCM"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Vicetone - Way Back (feat. Cozi Zuehlsdorff) [Monstercat Release]",
+      "url": "https://www.youtube.com/watch?v=ZaRYaTT2Xcs"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Subtact - Friends (feat. Bri Tolani) [Monstercat Release]",
+      "url": "https://www.youtube.com/watch?v=SSU4f_zreCk"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Rogue - Fortress [Monstercat Release]",
+      "url": "https://www.youtube.com/watch?v=HOkC0hVtA2o"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Brandyn Burnette & dwilly - Hands Down (feat. Kayo Genesis) [Monstercat Release]",
+      "url": "https://www.youtube.com/watch?v=7D8aqOX07o0"
+    },
+    {
+      "id": 14,
+      "categoriaId": 2,
+      "titulo": "LVTHER - Friends Again (feat. Claire Ridgely) [Monstercat Release]",
+      "url": "https://www.youtube.com/watch?v=qPmMqCte7ms"
+    },
+    {
+      "id": 15,
+      "categoriaId": 2,
+      "titulo": "SMLE - 2 Me (feat. Kiddo Ai & Nick Smith) [Monstercat Release]",
+      "url": "https://www.youtube.com/watch?v=sDLsSQf3Hc0"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Ghost of Tsushima",
+      "url": "https://www.youtube.com/watch?v=D0qA_b1Emw8"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "The Last Of Us 2",
+      "url": "https://www.youtube.com/watch?v=16RlfA39vhM"
+    },
+    {
+      "id": 18,
+      "categoriaId": 3,
+      "titulo": "God of War 4",
+      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+    },
+    {
+      "id": 19,
+      "categoriaId": 3,
+      "titulo": "Resident Evil 3 [REMAKE]",
+      "url": "https://www.youtube.com/watch?v=SuSwkjECwZ0"
+    },
+    {
+      "id": 20,
+      "categoriaId": 3,
+      "titulo": "Mortal Kombat 11",
+      "url": "https://www.youtube.com/watch?v=UoTams2yc0s"
+    },
+    {
+      "id": 21,
+      "categoriaId": 3,
+      "titulo": "Star Wars Jedi: Fallen Order",
+      "url": "https://www.youtube.com/watch?v=0GLbwkfhYZk"
+    },
+    {
+      "id": 22,
+      "categoriaId": 3,
+      "titulo": "Death Stranding",
+      "url": "https://www.youtube.com/watch?v=tCI396HyhbQ"
+    },
+    {
+      "titulo": "YONE, O INESQUECIDO - Primeiras Impressões",
+      "url": "https://www.youtube.com/watch?v=CUwFJQIyGbs",
+      "categoriaId": 1,
+      "id": 23
+    }
+  ]
 }
