@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import useForm from '../../../hooks/useForm';
+
+import { BsArrowLeftShort } from 'react-icons/bs';
+
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import CircleLoader from '../../../components/CircleLoader';
-import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -89,8 +92,9 @@ function CadastroCategoria() {
         ))}
       </ul>
 
-      <Link to="/">
-        Ir para home
+      <Link className="go-back" to="/cadastro/FormOptions">    
+        <BsArrowLeftShort className="back-icon" />
+        Voltar
       </Link>
     </PageDefault>
   );

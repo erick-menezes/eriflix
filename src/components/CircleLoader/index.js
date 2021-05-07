@@ -4,18 +4,21 @@ import styled from 'styled-components';
 
 export const ContainerStyle = styled.div`
     position: relative;
-    width: 3rem;
-    height: 3rem;
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    height: 5rem;
+    margin-top: 1rem;
 `;
 
 const circleStyle = {
     display: "block",
     width: "2.5rem",
     height: "2.5rem",
-    border: "0.5rem solid #e9e9e9",
-    borderTop: "0.5rem solid var(--primary)",
+    border: "0.2rem solid black",
+    borderTop: "0.2rem solid var(--primary)",
     borderRadius: "50%",
-    position: "absolute",
     boxSizing: "border-box",
     marginTop: "10px",
     marginLeft: "25px",

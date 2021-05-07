@@ -54,11 +54,21 @@
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
-    transition: opacity .3s;
+    transition: filter .3s;
+
+    &:hover,
+    &:focus {
+      filter: brightness(.8);
+    }
   }
-  .ButtonLink:hover,
-  .ButtonLink:focus {
-    opacity: .5;
+
+  .add-icon {
+    color: white;
+    transition: color .3s;
+
+    &:hover {
+      color: var(--primary);
+    }
   }
   
   @media (max-width: 800px) {

@@ -1,15 +1,19 @@
 import React, { useEffect, useState } from 'react';
-import PageDefault from '../../../components/PageDefault';
 import { Link, useHistory } from 'react-router-dom';
+import { BsArrowLeftShort } from 'react-icons/bs';
+
 import useForm from '../../../hooks/useForm';
+
+import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+
 import videosRepository from '../../../repositories/videos';
 import categoriasRepository from '../../../repositories/categorias';
 
+import '../../../styles/CadastroVideo.scss';
 
 function CadastroVideo() {
-
     const history = useHistory();
     const [categorias, setCategorias] = useState([]);
     const categoryTitles = categorias.map(({ titulo }) => titulo)
@@ -27,27 +31,29 @@ function CadastroVideo() {
         })
     }, []);
 
+    function handleSubmit(event) {
+        event.preventDefault();
+
+        const chooseCategory = categorias.find((categoria) => {
+            return categoria.titulo === values.categoria;
+        });
+
+        videosRepository.create({
+            titulo: values.titulo,
+            url: values.url,
+            categoriaId: chooseCategory.id,
+        })
+
+        .then(() => {
+            history.push("/");
+        })
+    }
+
     return (
         <PageDefault>
             <h1>Cadastro de Video: {values.titulo}</h1>
 
-            <form onSubmit={(event) => {
-                event.preventDefault();
-
-                const chooseCategory = categorias.find((categoria) => {
-                    return categoria.titulo === values.categoria;
-                });
-
-                videosRepository.create({
-                    titulo: values.titulo,
-                    url: values.url,
-                    categoriaId: chooseCategory.id,
-                })
-
-                .then(() => {
-                    history.push("/");
-                })
-            }}>
+            <form onSubmit={handleSubmit}>
                 <FormField
                     label="Título do Vídeo"
                     name="titulo"
@@ -68,16 +74,15 @@ function CadastroVideo() {
                     suggestions={categoryTitles}
                 />
 
-            <Button type="submit">
-                Cadastrar
-            </Button>
+                <Button className="btn-center" type="submit">
+                    Cadastrar
+                </Button>
             </form>
 
-            <Link to="/cadastro/categoria">
-                Cadastrar Categoria
+            <Link className="go-back" to="/cadastro/FormOptions">    
+                <BsArrowLeftShort className="back-icon" />
+                Voltar
             </Link>
-
-            
         </PageDefault>
     )
 }

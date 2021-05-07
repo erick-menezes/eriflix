@@ -16,21 +16,15 @@ function getAll() {
     },);
 }
 
-function getAllWithVideos() {
-    return fetch(`${URL_CATEGORIES}?_embed=videos`)
-      .then(async (response) => {
+async function getAllWithVideos() {
+    const response = await fetch(`${URL_CATEGORIES}?_embed=videos`);
 
-
-        if (response.ok) {
-            const resposta = await response.json();
-            return resposta;
-        }
-
-        throw new Error('Não foi possível encontrar os dados. :(');
-      },);
+    if (response.ok) {
+      const data = response.json();
+      return data;
+    } else {
+      throw new Error('Não foi possível encontrar os dados. :(');
+    }
 }
 
-export default {
-    getAllWithVideos,
-    getAll,
-};
+export default { getAllWithVideos, getAll };

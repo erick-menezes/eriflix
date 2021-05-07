@@ -1,0 +1,26 @@
+.btn-center {
+    margin: auto;
+}
+
+
+.go-back {
+    text-decoration: none;
+
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    width: fit-content;
+
+    .back-icon {
+        font-size: 2rem;
+        left: 1rem;
+        top: 6.5rem;
+    }
+
+    &:hover {
+        filter: brightness(.8);
+    }
+}

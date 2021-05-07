@@ -10,6 +10,8 @@ const FormFieldWrapper = styled.div`
   input[type="color"] {
     padding-left: 56px;
   }
+
+  margin-top: 1rem;
 `;
 
 const Label = styled.label``;
@@ -30,6 +32,11 @@ Label.Text = styled.span`
   font-weight: 300;
   
   transition: .1s ease-in-out;
+
+  & .required {
+      margin-right: 0.5rem;
+      color: #e33b3b;
+  }
 `;
 
 const Input = styled.input`
@@ -50,7 +57,11 @@ const Input = styled.input`
 
     resize: none;
     border-radius: 4px;
-    transition: border-color .3s;
+    transition: border-color .4s;
+
+    & + span {
+        transition: transform .4s;
+    }
 
     &:focus {
     border-bottom-color: var(--primary);
@@ -92,7 +103,7 @@ function FormField({ label, type, name, value, onChange, suggestions }) {
                     list={hasSuggestion ? `suggestionFor_${fieldId}` : undefined}
                 />
             <Label.Text>
-                {label}:
+                <span className="required">*</span> {label}: 
             </Label.Text>
             {
                 hasSuggestion && (

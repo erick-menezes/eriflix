@@ -1,19 +1,29 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; 
+import { Link, useLocation } from 'react-router-dom'; 
+
+import { BsPlusCircle } from 'react-icons/bs';
+
 import Logo from '../../assets/img/logo.png';
-import './menu.css';
-import Button from '../Button';
+
+import './menu.scss';
 
 function Menu() {
+    const location = useLocation();
+
     return (
         <nav className="Menu">
             <Link to="/">
                 <img className="Logo" src={Logo} alt="EriFlix logo" />
             </Link>
 
-            <Button as={Link} className="ButtonLink" to="/cadastro/video">
-                Novo vídeo
-            </Button>
+            {
+                location.pathname === '/' 
+                ?  <Link to="/cadastro/FormOptions">
+                    <BsPlusCircle size="2.3rem" className="add-icon" />
+                   </Link>
+                : null
+            }
+           
         </nav>
     );
 }

@@ -1,0 +1,11 @@
+.link-button {
+    text-decoration: none;
+}
+
+.btn-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1.2rem;
+}
