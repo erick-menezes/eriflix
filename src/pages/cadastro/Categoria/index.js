@@ -4,10 +4,10 @@ import useForm from '../../../hooks/useForm';
 
 import { BsArrowLeftShort } from 'react-icons/bs';
 
-import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import CircleLoader from '../../../components/CircleLoader';
+import { MainWrapper } from '../../../components/MainWrapper';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -35,7 +35,7 @@ function CadastroCategoria() {
   }, []);
 
   return (
-    <PageDefault>
+    <MainWrapper>
       <h1>
         Cadastro de Categoria: {values.nome}
       </h1>
@@ -96,7 +96,7 @@ function CadastroCategoria() {
         <BsArrowLeftShort className="back-icon" />
         Voltar
       </Link>
-    </PageDefault>
+    </MainWrapper>
   );
 }
 

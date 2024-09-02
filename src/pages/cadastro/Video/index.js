@@ -3,15 +3,14 @@ import { Link, useHistory } from 'react-router-dom';
 import { BsArrowLeftShort } from 'react-icons/bs';
 
 import useForm from '../../../hooks/useForm';
-
-import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 
-import videosRepository from '../../../repositories/videos';
-import categoriasRepository from '../../../repositories/categorias';
+import { create } from '../../../repositories/videos';
+import { index } from '../../../repositories/categorias';
 
 import '../../../styles/CadastroVideo.scss';
+import { MainWrapper } from '../../../components/MainWrapper';
 
 function CadastroVideo() {
     const history = useHistory();
@@ -24,11 +23,11 @@ function CadastroVideo() {
     });
 
     useEffect(() => {
-        categoriasRepository
-        .getAll()
-        .then((categoriasFromServer) => {
-            setCategorias(categoriasFromServer);
-        })
+        (async () => {
+            const allCategories = await index();
+            
+            setCategorias(allCategories);    
+        })();
     }, []);
 
     function handleSubmit(event) {
@@ -38,7 +37,7 @@ function CadastroVideo() {
             return categoria.titulo === values.categoria;
         });
 
-        videosRepository.create({
+        create({
             titulo: values.titulo,
             url: values.url,
             categoriaId: chooseCategory.id,
@@ -50,7 +49,7 @@ function CadastroVideo() {
     }
 
     return (
-        <PageDefault>
+        <MainWrapper>
             <h1>Cadastro de Video: {values.titulo}</h1>
 
             <form onSubmit={handleSubmit}>
@@ -83,7 +82,7 @@ function CadastroVideo() {
                 <BsArrowLeftShort className="back-icon" />
                 Voltar
             </Link>
-        </PageDefault>
+        </MainWrapper>
     )
 }
 

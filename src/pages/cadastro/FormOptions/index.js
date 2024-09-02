@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import PageDefault from '../../../components/PageDefault';
 import Button from '../../../components/Button';
 
 import '../../../styles/FormOptions.css';
+import { MainWrapper } from '../../../components/MainWrapper';
 
 function FormOptions() {
     
     return (
-        <PageDefault>
+        <MainWrapper>
             <h1>O que você deseja adicionar?</h1>
 
             <div className="btn-options">
@@ -21,7 +21,7 @@ function FormOptions() {
                     <Button>Categoria</Button>
                 </Link>
             </div>
-        </PageDefault>
+        </MainWrapper>
     );
 }
 

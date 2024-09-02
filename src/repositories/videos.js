@@ -2,7 +2,7 @@ import config from '../config';
 
 const URL_VIDEOS = `${config.URL_BACKEND_TOP}/videos`;
 
-function create(videoObject) {
+export function create(videoObject) {
     return fetch(`${URL_VIDEOS}?_embed=videos`, {
         method:'POST',
         headers: {
@@ -21,7 +21,3 @@ function create(videoObject) {
         throw new Error('Não foi possível cadastrar os dados. :(');
       },);
 }
-
-export default {
-    create,
-};
